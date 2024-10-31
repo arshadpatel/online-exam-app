@@ -63,11 +63,20 @@ button:hover {
 a {
     color: #3498db;
     text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform: scale(1);
 }
 
 a:hover {
-    text-decoration: underline;
+    background-color: #3498db;
+    color: #fff;
+    transform: scale(1.1); /* Scale up on hover */
 }
+a:active {
+    transform: scale(1); /* Reset to original scale */
+}
+
 
 footer {
     text-align: center;
