@@ -50,15 +50,15 @@ public class LoadExamsServlet extends HttpServlet {
 		ArrayList<Exam> examList = examdao.getAllExams();
 		request.setAttribute("examList", examList);
 		if (page == null && error != null)
-			request.getRequestDispatcher("manageExams.jsp").forward(request, response);
+			request.getRequestDispatcher("admin/manageExams.jsp").forward(request, response);
 		else if (page != null && page.equals("1"))
-			request.getRequestDispatcher("manageExams.jsp").forward(request, response);
+			request.getRequestDispatcher("admin/manageExams.jsp").forward(request, response);
 		else if (page != null && page.equals("2"))
-			request.getRequestDispatcher("manageQuestions.jsp").forward(request, response);
+			request.getRequestDispatcher("admin/manageQuestions.jsp").forward(request, response);
 		else if (page != null && page.equals("examList"))
-			request.getRequestDispatcher("examList.jsp").forward(request, response);
+			request.getRequestDispatcher("student/examList.jsp").forward(request, response);
 		else if (page != null && page.equals("adminScores"))
-			request.getRequestDispatcher("adminScores.jsp").forward(request, response);
+			request.getRequestDispatcher("admin/adminScores.jsp").forward(request, response);
 	}
 
 }

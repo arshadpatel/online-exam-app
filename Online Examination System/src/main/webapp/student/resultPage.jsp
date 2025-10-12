@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Exam Results</title>
-<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="../styles.css">
 </head>
 <body>
 	<div class="container">

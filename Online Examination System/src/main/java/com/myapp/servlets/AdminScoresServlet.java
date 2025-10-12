@@ -45,7 +45,7 @@ public class AdminScoresServlet extends HttpServlet {
 		int examId = Integer.parseInt(request.getParameter("examId"));
 		ArrayList<UserScore> adminScores = resultDao.getAdminScores(examId);
 		request.setAttribute("adminScoresList", adminScores);
-		request.getRequestDispatcher("adminScores.jsp").forward(request, response);
+		request.getRequestDispatcher("admin/adminScores.jsp").forward(request, response);
 	}
 
 }

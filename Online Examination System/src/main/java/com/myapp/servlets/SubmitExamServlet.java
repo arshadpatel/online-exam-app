@@ -76,7 +76,7 @@ public class SubmitExamServlet extends HttpServlet {
 			}
 			ArrayList<ExamScore> userResultList = resultDao.getUserResults(result.getUserId());
 			request.setAttribute("userResultList", userResultList);
-			request.getRequestDispatcher("viewScores.jsp").forward(request, response);
+			request.getRequestDispatcher("student/viewScores.jsp").forward(request, response);
 		} else {
 			response.sendRedirect("login.jsp");
 		}
