@@ -50,9 +50,9 @@ public class LoadQuestionsServlet extends HttpServlet {
 		request.setAttribute("questionList", questionList);
 		request.setAttribute("examName", examName);
 		if (page!=null && page.equals("examPage"))
-			request.getRequestDispatcher("examPage.jsp").forward(request, response);
+			request.getRequestDispatcher("student/examPage.jsp").forward(request, response);
 		else
-			request.getRequestDispatcher("manageQuestions.jsp").forward(request, response);
+			request.getRequestDispatcher("admin/manageQuestions.jsp").forward(request, response);
 	}
 
 }
