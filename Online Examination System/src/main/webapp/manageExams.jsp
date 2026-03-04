@@ -89,7 +89,7 @@
 			}
 		%>
 	</div>
-	<footer>&copy; 2024 Online Examination System</footer>
+	<footer>&copy; 2026 Online Examination System</footer>
 
 	<!-- Add/Edit Exam Modal -->
 	<div id="examModal" class="modal">

@@ -21,13 +21,17 @@
 			if (user.getRole().equals("student")) {
 		%>
 		<%
-		String examName = (String) request.getAttribute("examName");
-		int i = 1;
+			String examName = (String) request.getAttribute("examName");
+			Integer examId = (Integer) request.getAttribute("examId");  // add this
+			int i = 1;
 		%>
 		<h2>
 			Exam:
 			<%=examName%></h2>
-		<form action="SubmitExamServlet?examName=<%=examName%>" method="post">
+		<form action="SubmitExamServlet" method="post">  
+		    <!-- Pass exam info via hidden fields, NOT query string -->
+		    <input type="hidden" name="examName" value="<%=examName%>">
+		    <input type="hidden" name="examId"   value="<%=examId%>">
 			<!-- Loop through each question -->
 			<%
 			ArrayList<Question> questionList = (ArrayList<Question>) request.getAttribute("questionList");

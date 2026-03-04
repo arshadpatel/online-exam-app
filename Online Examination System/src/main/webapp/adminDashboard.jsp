@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ page import="jakarta.servlet.http.HttpSession"%>
+<%@ page import="javax.servlet.http.HttpSession"%>
 <%@ page import="com.myapp.utils.User"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,6 +47,6 @@
 			}
 		%>
 	</div>
-	<footer>&copy; 2024 Online Examination System</footer>
+	<footer>&copy; 2026 Online Examination System</footer>
 </body>
 </html>

@@ -24,21 +24,22 @@
 		<h2>Scores</h2>
 		<h3>Select Exam</h3>
 		<form action="AdminScoresServlet" method="post">
-			<select id="examSelect" name="examId" onchange="this.form.submit()">
-				<option value="" disabled selected>Select Exam</option>
-				<!-- Exam options will be populated here -->
-				<%
-				ArrayList<Exam> examList = (ArrayList<Exam>) request.getAttribute("examList");
-				if (examList != null) {
-					for (Exam exam : examList) {
-				%>
-				<option value="<%=exam.getId()%>"><%=exam.getExamName()%></option>
-
-				<%
-					}
-				}
-				%>
-			</select>
+		  	<select id="examSelect" name="examId" onchange="this.form.submit()">
+		      <option value="" disabled selected>Select Exam</option>
+		      <%
+		     ArrayList<Exam> examList = (ArrayList<Exam>) request.getAttribute("examList");
+		     if (examList != null) {
+		         for (Exam exam : examList) {
+		     %>
+		     <option value="<%= exam.getId() %>" 
+		         <%= String.valueOf(exam.getId()).equals(request.getParameter("examId")) ? "selected" : "" %>>
+		         <%= exam.getExamName() %>
+		     </option>
+		     <%
+		         }
+		     }
+		     %>
+		 	</select>
 		</form>
 		<h3>Results</h3>
 		<table>

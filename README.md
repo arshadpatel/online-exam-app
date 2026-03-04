@@ -6,14 +6,20 @@ The **Online Examination System** is a web application that enables administrato
 
 ## Table of Contents
 
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [How to Contribute](#how-to-contribute)
-- [License](#license)
-- [Contact](#contact)
+- [Online Examination System](#online-examination-system)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
+  - [Project Structure](#project-structure)
+  - [Technologies Used](#technologies-used)
+  - [Setup and Installation](#setup-and-installation)
+    - [Prerequisites](#prerequisites)
+    - [Installation Steps](#installation-steps)
+  - [**How to Contribute**](#how-to-contribute)
+      - [Code Style Guidelines](#code-style-guidelines)
+  - [License](#license)
+  - [Contact](#contact)
 
 ## Features
 1. Admin Features:
@@ -33,90 +39,52 @@ The **Online Examination System** is a web application that enables administrato
   ![001](Images/002.png)
   <br>
   <br>
+- Admin Registration <br>
   ![001](Images/003.png)
   <br>
   <br>
-- Admin Registration <br>
+- Registration Successful <br>
   ![001](Images/004.png)
   <br>
   <br>
+- Admin Dashboard <br>
   ![001](Images/005.png)
   <br>
   <br>
-- Registration Successful <br>
+- Manage Exam <br>
   ![001](Images/006.png)
   <br>
   <br>
-- Admin Dashboard <br>
+- Adding New Exam <br>
   ![001](Images/007.png)
   <br>
   <br>
-- Select Manage Exam <br>
+- Add a New Question to an Exam <br>
   ![001](Images/008.png)
   <br>
   <br>
-- Manage Exam <br>
+- See All Questions for a Specific Exam <br>
   ![001](Images/009.png)
   <br>
   <br>
-- Adding New Exam <br>
+- See Student Scores <br>
   ![001](Images/010.png)
   <br>
   <br>
-- New Exam Added Successfully Add Questions Now <br>
+- Student Dashbaord <br>
   ![001](Images/011.png)
   <br>
   <br>
-- Add New Question <br>
+- Exam Page <br>
   ![001](Images/012.png)
   <br>
   <br>
-- Adding New Question <br>
+- Submitting the Exam And See Score <br>
   ![001](Images/013.png)
   <br>
   <br>
-- Added All Questions <br>
-  ![001](Images/014.png)
-  <br>
-  <br>
-- Logout <br>
-  ![001](Images/015.png)
-  <br>
-  <br>
-- Student Registration <br>
-  ![001](Images/016.png)
-  <br>
-  <br>
-  ![001](Images/017.png)
-  <br>
-  <br>
-  ![001](Images/018.png)
-  <br>
-  <br>
-- Available Exams For Students <br>
-  ![001](Images/019.png)
-  <br>
-  <br>
-- Exam Page <br>
-  ![001](Images/020.png)
-  <br>
-  <br>
-- Submitting the Exam <br>
-  ![001](Images/021.png)
-  <br>
-  <br>
-- Student's All Scores till date <br>
-  ![001](Images/022.png)
-  <br>
-  <br>
 - Admin's Exam wise Scores Page <br>
-  ![001](Images/023.png)
-  <br>
-  <br>
-  ![001](Images/024.png)
-  <br>
-  <br>
-  ![001](Images/025.png)
+  ![001](Images/014.png)
   <br>
   <br>
 ## Project Structure
